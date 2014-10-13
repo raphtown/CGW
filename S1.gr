@@ -8,12 +8,20 @@
 
 1 S1 -> NP VP .
 
-1 VP -> VerbT NP
+1 VP -> Vbar NP
+10  Vbar -> VerbT NP  
+10  Vbar -> VerbInt (PP)
 
 20 NP -> Det Nbar
 1 NP -> Proper
 
 20 Nbar -> Noun
 1 Nbar -> Nbar PP
+# 5 NBar -> CATR Noun
+#  CATR -> JJbar CC JJ
+#  JJbar -> (JJbar) JJ
+5  Nbar -> JJ Nbar 
+
+  
 
 1 PP -> Prep NP

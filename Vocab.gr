@@ -240,12 +240,12 @@
 1	Misc ->	known
 
 # More third person singular verbs.
-1	Misc ->	speaks
-1	Misc ->	grows
-1	Misc ->	goes
-1	Misc ->	migrates
-1	Misc ->	suggests
-1	Misc ->	knows
+1	VerbInt ->	speaks
+1	VerbInt ->	grows
+1	VerbInt ->	goes
+1	VerbInt ->	migrates
+1	VerbInt ->	suggests
+1	VerbInt ->	knows
 
 # Verbs (present, plural, third person).
 1	Misc ->	have
