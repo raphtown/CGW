@@ -89,25 +89,25 @@
 
 
 # Adjectives.
-1	Misc ->	bloody
-1	Misc ->	weary
-1	Misc ->	unable
-1	Misc ->	trusty
-1	Misc ->	further
-1	Misc ->	sacred
-1	Misc ->	tropical
-1	Misc ->	indigenous
-1	Misc ->	temperate
-1	Misc ->	hot
-1	Misc ->	lucky
-1	Misc ->	simple
-1	Misc ->	tiny
-1	Misc ->	hard	
-1	Misc ->	sensational
-1	Misc ->	comparable
-1	Misc ->	angolian
-1	Misc ->	yellow
-1	Misc ->	plodding
+1	JJ ->	bloody
+1	JJ ->	weary
+1	JJ ->	unable
+1	JJ ->	trusty
+1	JJ ->	further
+1	JJ ->	sacred
+1	JJ ->	tropical
+1	JJ ->	indigenous
+1	JJ ->	temperate
+1	JJ ->	hot
+1	JJ ->	lucky
+1	JJ ->	simple
+1	JJ ->	tiny
+1	JJ ->	hard	
+1	JJ ->	sensational
+1	JJ ->	comparable
+1	JJ ->	angolian
+1	JJ ->	yellow
+1	JJ ->	plodding
 
 # Comparative adjectives.
 1	Misc ->	bloodier
@@ -119,13 +119,13 @@
 1	Misc ->	harder
 
 # Superlative adjectives.
-1	Misc ->	bloodiest
-1	Misc ->	weariest
-1	Misc ->	trustiest
-1	Misc ->	hottest
-1	Misc ->	simplest
-1	Misc ->	tiniest
-1	Misc ->	hardest
+1	JJ ->	bloodiest
+1	JJ ->	weariest
+1	JJ ->	trustiest
+1	JJ ->	hottest
+1	JJ ->	simplest
+1	JJ ->	tiniest
+1	JJ ->	hardest
 
 # Plural nouns.
 1	Misc ->	coconuts
@@ -167,14 +167,14 @@
 1	Misc ->	their
 
 # Adverbs.
-1	Misc ->	again
-1	Misc ->	already
-1	Misc ->	currently
-1	Misc ->	frequently
-1	Misc ->	precisely
-1	Misc ->	south
-1	Misc ->	successfully
-1	Misc ->	unfortunately
+1	RB ->	again
+1	RB ->	already
+1	RB ->	currently
+1	RB ->	frequently
+1	RB ->	precisely
+1	RB ->	south
+1	RB ->	successfully
+1	RB ->	unfortunately
 
 # 'do'/'does'
 1	Misc ->	do
