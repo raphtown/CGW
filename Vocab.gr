@@ -128,42 +128,43 @@
 1	JJ ->	hardest
 
 # Plural nouns.
-1	Misc ->	coconuts
-1	Misc ->	halves
-1	Misc ->	snows
-1	Misc ->	mountains
-1	Misc ->	areas
-1	Misc ->	strangers
-1	Misc ->	inches
-1	Misc ->	snakes
-1	Misc ->	ants
-1	Misc ->	nights
+1	PNoun ->	coconuts
+1	PNoun ->	halves
+1	PNoun ->	snows
+1	PNoun ->	mountains
+1	PNoun ->	areas
+1	PNoun ->	strangers
+1	PNoun ->	inches
+1	PNoun ->	snakes
+1	PNoun ->	ants
+1	PNoun ->	nights
 
 # More proper nouns, not people.
 
-1	Misc ->	Camelot
-1	Misc ->	England
-1	Misc ->	Holy Grail
-1	Misc ->	Round Table
+1	SProper ->	Camelot
+1	SProper ->	England
+1	SProper ->	Holy Grail
+1	SProper ->	Round Table
 
 # Plural proper nouns.
-1	Misc ->	Britons
-1	Misc ->	Saxons
+1	PProper ->	Britons
+1	PProper ->	Saxons
 
+# TODO: These are not possessive
 # Personal pronouns.
-1	IPron ->	he
-1	IPron ->	him
-1	IPron ->	it
-1	IPron ->	one
-1	IPron ->	she
-1	IPron ->	them
-1	IPron ->	they
+1	SIPron ->	he
+1	SIPron ->	him
+1	SIPron ->	it
+1	SIPron ->	one
+1	SIPron ->	she
+1	PIPron ->	them
+1	PIPron ->	they
 
 # Possessive personal pronouns
-1	PosPron ->	her
-1	PosPron ->	his
-1	PosPron ->	its
-1	PosPron ->	their
+1	SPosPron ->	her
+1	SPosPron ->	his
+1	PPosPron ->	its
+1	PPosPron ->	their
 
 # Adverbs.
 1	RB ->	again
@@ -186,17 +187,17 @@
 1	Misc ->	not
 
 # Verbs (base form).
-1	Misc ->	have
-1	Misc ->	speak
-1	Misc ->	cover
-1	Misc ->	be
-1	Misc ->	ride
-1	Misc ->	drink
-1	Misc ->	grow
-1	Misc ->	carry
-1	Misc ->	suggest
-1	Misc ->	migrate
-1	Misc ->	know
+1	PVerbT ->	have
+1	PVerbT ->	speak
+1	PVerbT ->	cover
+1	PVerbT ->	be
+1	PVerbT ->	ride
+1	PVerbT ->	drink
+1	PVerbT ->	grow
+1	PVerbT ->	carry
+1	PVerbT ->	suggest
+1	PVerbT ->	migrate
+1	PVerbT ->	know
 
 # Verbs (past tense).
 1	Misc ->	had
@@ -239,30 +240,30 @@
 1	Misc ->	known
 
 # More third person singular verbs.
-1	VerbInt ->	speaks
-1	VerbInt ->	grows
-1	VerbInt ->	goes
-1	VerbInt ->	migrates
-1	VerbInt ->	suggests
-1	VerbInt ->	knows
+1	SVerbInt ->	speaks
+1	SVerbInt ->	grows
+1	SVerbInt ->	goes
+1	SVerbInt ->	migrates
+1	SVerbInt ->	suggests
+1	SVerbInt ->	knows
 
 # Verbs (present, plural, third person).
-1	Misc ->	have
-1	Misc ->	speak
-1	Misc ->	cover
-1	Misc ->	are
-1	Misc ->	ride
-1	Misc ->	drink
-1	Misc ->	grow
-1	Misc ->	carry
-1	Misc ->	suggest
-1	Misc ->	migrate
-1	Misc ->	know
+1	PVerbT ->	have
+1	PVerbT ->	speak
+1	PVerbT ->	cover
+1	PVerbT ->	are
+1	PVerbT ->	ride
+1	PVerbT ->	drink
+1	PVerbT ->	grow
+1	PVerbT ->	carry
+1	PVerbT ->	suggest
+1	PVerbT ->	migrate
+1	PVerbT ->	know
 
 # Wh-determiners.
-1	Misc ->	that
-1	Misc ->	what
-1	Misc ->	which
+1	Prep ->	that
+1	Prep ->	what
+1	Prep ->	which
 
 # Wh-pronouns.
 1	Misc ->	what
