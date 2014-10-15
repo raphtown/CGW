@@ -22,12 +22,12 @@
 
 1 PNbar -> PNoun
 1 PNbar -> PNbar PP
-1 PNbar -> JJ Pbar
+1 PNbar -> JJ PNbar
 
 1 SNP -> Det SNbar
 1 SNP -> SIPron
 1 SNP -> SProper 
-1 PNP -> SPosProper SNbar
+1 SNP -> SPosPron SNbar
 
 1 SNbar -> SNoun
 1 SNbar -> SNbar PP
