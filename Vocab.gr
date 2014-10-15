@@ -151,20 +151,19 @@
 1	Misc ->	Saxons
 
 # Personal pronouns.
-1	Misc ->	he
-1	Misc ->	her
-1	Misc ->	him
-1	Misc ->	it
-1	Misc ->	one
-1	Misc ->	she
-1	Misc ->	them
-1	Misc ->	they
+1	IPron ->	he
+1	IPron ->	him
+1	IPron ->	it
+1	IPron ->	one
+1	IPron ->	she
+1	IPron ->	them
+1	IPron ->	they
 
 # Possessive personal pronouns
-1	Misc ->	her
-1	Misc ->	his
-1	Misc ->	its
-1	Misc ->	their
+1	PosPron ->	her
+1	PosPron ->	his
+1	PosPron ->	its
+1	PosPron ->	their
 
 # Adverbs.
 1	RB ->	again
@@ -177,8 +176,8 @@
 1	RB ->	unfortunately
 
 # 'do'/'does'
-1	Misc ->	do
-1	Misc ->	does
+1	Plural ->	do
+1	Singular ->	does
 
 # 'to'
 1	Misc ->	to

@@ -14,6 +14,9 @@
 
 20 NP -> Det Nbar
 1 NP -> Proper
+  NP -> IPron
+  NP -> PosPron Nbar
+  
 
 20 Nbar -> Noun
 1 Nbar -> Nbar PP
