@@ -6,25 +6,43 @@
 
 # This is a very, very, very simple grammar to get you started.
 
-1 S1 -> NP VP .
+1 S1 -> PSub PVP .
+1 S1 -> SSub SVP .
 
-1 VP -> Vbar NP
-10  Vbar -> VerbT NP  
-10  Vbar -> VerbInt (PP)
+1 PSub -> PIPron
+1 PSub -> PNP
 
-20 NP -> Det Nbar
-1 NP -> Proper
-  NP -> IPron
-  NP -> PosPron Nbar
-  
+1 SSub -> SIPron
+1 SSub -> SNP
 
-20 Nbar -> Noun
-1 Nbar -> Nbar PP
-# 5 NBar -> CATR Noun
-#  CATR -> JJbar CC JJ
-#  JJbar -> (JJbar) JJ
-5  Nbar -> JJ Nbar 
+1 PNP -> Det PNbar
+1 PNP -> PIPron
+1 PNP -> PProper
+1 PNP -> PPosPron PNbar
 
+1 PNbar -> PNoun
+1 PNbar -> PNbar PP
+1 PNbar -> JJ Pbar
+
+1 SNP -> Det SNbar
+1 SNP -> SIPron
+1 SNP -> SProper 
+1 PNP -> SPosProper SNbar
+
+1 SNbar -> SNoun
+1 SNbar -> SNbar PP
+1 SNbar -> JJ SNbar
+
+1 PVP -> PVbar NP
+10  PVbar -> PVerbT NP  
+10  PVbar -> PVerbInt (PP)
+
+1 SVP -> SVbar NP
+10  SVbar -> SVerbT NP  
+10  SVbar -> SVerbInt (PP)
+
+10 NP -> SNP
+10 NP -> PNP
   
 
 1 PP -> Prep NP
