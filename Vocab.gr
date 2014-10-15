@@ -11,7 +11,7 @@
 
 # Singular and mass nouns.  Notice that only the
 # ones that start with consonants get our Noun tag.
-1	Noun ->	{castle | king | defeater | sovereign | servant | corner | land | quest | chalice | master | horse | fruit | swallow | sun | winter | coconut | pound | husk | home | weight | story}
+1	SNoun ->	{castle | king | defeater | sovereign | servant | corner | land | quest | chalice | master | horse | fruit | swallow | sun | winter | coconut | pound | husk | home | weight | story}
 
 # Determiners.
 1	Det	 -> {a | another | any | each | every | no | that | the | this}
@@ -200,18 +200,18 @@
 1	PVerbT ->	know
 
 # Verbs (past tense).
-1	Misc ->	had
-1	Misc ->	spoke
-1	Misc ->	covered
-1	Misc ->	was
-1	Misc ->	were
-1	Misc ->	rode
-1	Misc ->	drank
-1	Misc ->	grew
-1	Misc ->	carried
-1	Misc ->	suggested
-1	Misc ->	migrated
-1	Misc ->	knew
+1	SVerbT ->	had
+1	SVerbT ->	spoke
+1	SVerbT ->	covered
+1	SVerbT ->	was
+1	SVerbT ->	were
+1	SVerbT ->	rode
+1	SVerbT ->	drank
+1	SVerbT ->	grew
+1	SVerbT ->	carried
+1	SVerbT ->	suggested
+1	SVerbT ->	migrated
+1	SVerbT ->	knew
 
 # Verbs (present participles).
 1	Misc ->	having
@@ -249,9 +249,10 @@
 
 # Verbs (present, plural, third person).
 1	PVerbT ->	have
-1	PVerbT ->	speak
+1	PVerbInt ->	speak
 1	PVerbT ->	cover
 1	PVerbT ->	are
+1	PVerbInt ->	ride
 1	PVerbT ->	ride
 1	PVerbT ->	drink
 1	PVerbT ->	grow
